@@ -1,0 +1,25 @@
+﻿<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="aspnetTitle">Agendar Cita</h1>
+        
+    </section>
+    <div class="row">
+        
+        <form id="agendarCitaForm">
+            <select id="medico">
+                <option value="" disabled selected>Seleccione un Médico</option>
+                <!-- Otras opciones de médicos aquí(cargar consumiendo api) -->
+            </select>
+            <select id="paciente">
+                <option value="" disabled selected>Seleccione un Paciente</option>
+                <!-- Otras opciones de pacientes aquí (cargar consumiendo api)-->
+            </select>
+            <input type="datetime-local" id="fecha" required />
+            <input type="text" id="lugar" placeholder="Lugar de la cita" required />
+            <button type="submit">Agendar Cita</button>
+        </form>
+
+        
+        
+    </div>
+</main>
